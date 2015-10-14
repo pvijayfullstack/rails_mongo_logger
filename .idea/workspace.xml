@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7f1847a1-73a9-4be1-b87c-db18b92317c0" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rails_mongo_logger.gemspec" afterPath="$PROJECT_DIR$/rails_mongo_logger.gemspec" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/rails_mongo_logger/version.rb" afterPath="$PROJECT_DIR$/lib/rails_mongo_logger/version.rb" />
     </list>
     <ignored path="rails_mongo_logger.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -83,16 +83,25 @@
       <file leaf-file-name="rails_mongo_logger.gemspec" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/rails_mongo_logger.gemspec">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="40" selection-start="913" selection-end="913" vertical-scroll-proportion="-11.785714">
+            <state line="25" column="0" selection-start="923" selection-end="923" vertical-scroll-proportion="-13.392858">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="will_paginate_mongo.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="version.rb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/lib/rails_mongo_logger/version.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="3" column="0" selection-start="48" selection-end="48" vertical-scroll-proportion="0.0703125">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="will_paginate_mongo.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/initializers/will_paginate_mongo.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="0" selection-start="1" selection-end="1" vertical-scroll-proportion="0.0234375">
+            <state line="1" column="78" selection-start="30" selection-end="30" vertical-scroll-proportion="-0.53571427">
               <folding />
             </state>
           </provider>
@@ -102,15 +111,6 @@
         <entry file="file://$PROJECT_DIR$/app/views/rails_mongo_logger/logged_exceptions/_exceptions.html.erb">
           <provider selected="true" editor-type-id="text-editor">
             <state line="22" column="45" selection-start="1068" selection-end="1068" vertical-scroll-proportion="-4.923077">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="date_formats.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/initializers/date_formats.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="0" selection-start="127" selection-end="127" vertical-scroll-proportion="-2.6785715">
               <folding />
             </state>
           </provider>
@@ -139,6 +139,7 @@
         <option value="$PROJECT_DIR$/app/views/rails_mongo_logger/logged_exceptions/_show.html.erb" />
         <option value="$PROJECT_DIR$/rails_mongo_logger.gemspec" />
         <option value="$PROJECT_DIR$/config/initializers/will_paginate_mongo.rb" />
+        <option value="$PROJECT_DIR$/lib/rails_mongo_logger/version.rb" />
       </list>
     </option>
   </component>
@@ -565,13 +566,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/controllers/rails_mongo_logger/logged_exceptions_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="104" selection-start="777" selection-end="777" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/rails_mongo_logger/engine.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="1" column="3" selection-start="27" selection-end="27" vertical-scroll-proportion="0.0">
@@ -663,16 +657,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rails_mongo_logger.gemspec">
+    <entry file="file://$PROJECT_DIR$/config/initializers/will_paginate_mongo.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="40" selection-start="913" selection-end="913" vertical-scroll-proportion="-11.785714">
+        <state line="1" column="78" selection-start="30" selection-end="30" vertical-scroll-proportion="-0.53571427">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/initializers/will_paginate_mongo.rb">
+    <entry file="file://$PROJECT_DIR$/rails_mongo_logger.gemspec">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="0" selection-start="1" selection-end="1" vertical-scroll-proportion="0.0234375">
+        <state line="25" column="0" selection-start="923" selection-end="923" vertical-scroll-proportion="-13.392858">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/rails_mongo_logger/version.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="0" selection-start="48" selection-end="48" vertical-scroll-proportion="0.0703125">
           <folding />
         </state>
       </provider>
