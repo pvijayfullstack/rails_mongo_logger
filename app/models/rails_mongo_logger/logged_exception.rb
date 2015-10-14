@@ -1,6 +1,7 @@
 module RailsMongoLogger
   class LoggedException
     include Mongoid::Document
+    include Mongoid::Timestamps
 
     field :exception_class, type: String
     field :controller_name, type: String
@@ -9,7 +10,7 @@ module RailsMongoLogger
     field :backtrace, type: String
     field :environment, type: String
     field :request, type: String
-     field :created_at, type: DateTime
+    field :created_at, type: DateTime
 
     HOSTNAME = `hostname -s`.chomp
     class << self

@@ -2,7 +2,7 @@ module RailsMongoLogger
   module LoggedExceptionsHelper
 
     def pretty_exception_date(exception)
-      if Date.today == exception.created_at.to_date
+      if Date.today == exception.try(:created_at).try(:to_date)
         if false # exception.created_at > Time.now - 4.hours
           "#{time_ago_in_words(exception.created_at).gsub(/about /,"~ ")} agox"
         else
