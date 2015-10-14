@@ -89,5 +89,10 @@ module RailsMongoLogger
     def rails_root
       @@rails_root
     end
+
+    def self.order(type)
+      super(type.asc)
+    end
+
   end
 end
