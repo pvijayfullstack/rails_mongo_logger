@@ -92,7 +92,7 @@ module RailsMongoLogger
     end
 
     def self.order(type)
-      super(type)
+      super("#{type} asc")
     end
 
   end

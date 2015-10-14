@@ -29,7 +29,7 @@
       <file leaf-file-name="logged_exception.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/models/rails_mongo_logger/logged_exception.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="94" column="16" selection-start="3461" selection-end="3461" vertical-scroll-proportion="0.82227486">
+            <state line="94" column="25" selection-start="3470" selection-end="3470" vertical-scroll-proportion="0.82227486">
               <folding />
             </state>
           </provider>
@@ -581,7 +581,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models/rails_mongo_logger/logged_exception.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="94" column="16" selection-start="3461" selection-end="3461" vertical-scroll-proportion="0.82227486">
+        <state line="94" column="25" selection-start="3470" selection-end="3470" vertical-scroll-proportion="0.82227486">
           <folding />
         </state>
       </provider>
