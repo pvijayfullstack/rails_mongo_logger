@@ -75,7 +75,8 @@ module RailsMongoLogger
     end
 
     def self.controller_actions
-     order(:controller_name,:action_name).collect(&:controller_action).uniq
+     #order(:controller_name, :action_name).collect(&:controller_action).uniq
+     order(:controller_name).collect(&:controller_action).uniq
     end
 
     private
