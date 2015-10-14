@@ -1,7 +1,7 @@
 module RailsMongoLogger
   class LoggedException
     include Mongoid::Document
-    include Mongoid::Timestamps
+    include Mongoid::Timestamps::Created
 
     field :exception_class, type: String
     field :controller_name, type: String

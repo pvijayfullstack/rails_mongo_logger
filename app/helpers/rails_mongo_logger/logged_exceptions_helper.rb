@@ -9,7 +9,7 @@ module RailsMongoLogger
           "Today, #{exception.created_at.strftime(Time::DATE_FORMATS[:exc_time]) rescue nil}"
         end
       else
-        exception.created_at.strftime(Time::DATE_FORMATS[:exc_date])
+        exception.created_at.strftime(Time::DATE_FORMATS[:exc_date]) rescue nil
       end
     end
 

@@ -5,7 +5,7 @@
 </div>
 
 <div class="date">
-  <%= @exception.created_at.strftime(Time::DATE_FORMATS[:exc_full]) %>
+  <%= @exception.created_at.strftime(Time::DATE_FORMATS[:exc_full]) rescue nil %>
 </div>
 <h1><%= @exception.name %></h1>
 
