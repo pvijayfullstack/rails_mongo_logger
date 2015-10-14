@@ -6,7 +6,7 @@ module RailsMongoLogger
         if false # exception.created_at > Time.now - 4.hours
           "#{time_ago_in_words(exception.created_at).gsub(/about /,"~ ")} agox"
         else
-          "Today, #{exception.created_at.strftime(Time::DATE_FORMATS[:exc_time])}"
+          "Today, #{exception.created_at.strftime(Time::DATE_FORMATS[:exc_time]) rescue nil}"
         end
       else
         exception.created_at.strftime(Time::DATE_FORMATS[:exc_date])
