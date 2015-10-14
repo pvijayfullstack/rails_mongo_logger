@@ -5,10 +5,10 @@ module RailsMongoLogger
     field :exception_class, type: String
     field :controller_name, type: String
     field :action_name, type: String
-    field :message, type: Text
-    field :backtrace, type: Text
-    field :environment, type: Text
-    field :request, type: Text
+    field :message, type: String
+    field :backtrace, type: String
+    field :environment, type: String
+    field :request, type: String
      field :created_at, type: DateTime
 
     HOSTNAME = `hostname -s`.chomp
