@@ -1,7 +1,7 @@
-# This migration comes from rails_exception_logger (originally 20120507081835)
-class CreateRailsExceptionLoggerLoggedExceptions < ActiveRecord::Migration
+# This migration comes from rails_mongo_logger (originally 20120507081835)
+class CreateRailsMongoLoggerLoggedExceptions < ActiveRecord::Migration
   def change
-    create_table :rails_exception_logger_logged_exceptions, :force => true do |t|
+    create_table :rails_mongo_logger_logged_exceptions, :force => true do |t|
       t.string :exception_class
       t.string :controller_name
       t.string :action_name

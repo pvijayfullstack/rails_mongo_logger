@@ -1,4 +1,4 @@
-RailsExceptionLogger::Engine.routes.draw do
+RailsMongoLogger::Engine.routes.draw do
   # Exception Logger
   resources :logged_exceptions do
     collection do

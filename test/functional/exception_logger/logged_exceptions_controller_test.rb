@@ -1,6 +1,6 @@
 require 'test_helper'
 
-module RailsExceptionLogger
+module RailsMongoLogger
   class LoggedExceptionsControllerTest < ActionController::TestCase
     # test "the truth" do
     #   assert true

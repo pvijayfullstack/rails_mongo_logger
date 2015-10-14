@@ -5,7 +5,7 @@
     <%= csrf_meta_tag %>
     <title><%= yield(:title) || "Rails Exception Logger" %></title>
 
-    <%= stylesheet_link_tag "rails_exception_logger/application" %>
+    <%= stylesheet_link_tag "rails_mongo_logger/application" %>
 
     <%= auto_discovery_link_tag(:rss, {:action => "feed"}, {:title => "RSS Feed"}) %>
   </head>
@@ -15,6 +15,6 @@
     </div>
     <br style="clear:both" />
 
-    <%= javascript_include_tag "rails_exception_logger/application" %>
+    <%= javascript_include_tag "rails_mongo_logger/application" %>
   </body>
 </html>

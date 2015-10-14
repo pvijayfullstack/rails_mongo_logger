@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-# Declare your gem's dependencies in rails_exception_logger.gemspec.
+# Declare your gem's dependencies in rails_mongo_logger.gemspec.
 # Bundler will treat runtime dependencies like base dependencies, and
 # development dependencies will be added by default to the :development group.
 gemspec
@@ -19,3 +19,5 @@ gem "jquery-rails"
 gem 'pry', require: false
 gem 'pry-debugger'
 gem 'pry-rails'
+
+

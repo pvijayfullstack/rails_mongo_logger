@@ -1,15 +1,15 @@
 $:.push File.expand_path("../lib", __FILE__)
 
 # Maintain your gem's version:
-require "rails_exception_logger/version"
+require "rails_mongo_logger/version"
 
 # Describe your gem and declare its dependencies:
 Gem::Specification.new do |s|
-  s.name        = "rails_exception_logger"
-  s.version     = RailsExceptionLogger::VERSION
+  s.name        = "rails_mongo_logger"
+  s.version     = RailsMongoLogger::VERSION
   s.authors     = ["vijay p"]
   s.email       = ["pvijay127@gmail.com"]
-  s.homepage    = "https://github.com/pvijayror/rails_exception_logger"
+  s.homepage    = "https://github.com/pvijayror/rails_mongo_logger"
   s.summary     = "Log exceptions inside a database table. No avaliable with rails 3.2.x."
   s.description = "It's evolved from the outdated version 0.11.1 and built with rails engine and is mountable."
 

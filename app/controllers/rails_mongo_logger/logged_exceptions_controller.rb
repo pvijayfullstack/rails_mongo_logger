@@ -1,6 +1,6 @@
-module RailsExceptionLogger
+module RailsMongoLogger
   class LoggedExceptionsController < ApplicationController
-    layout 'rails_exception_logger/application'
+    layout 'rails_mongo_logger/application'
 
     cattr_accessor :application_name
 

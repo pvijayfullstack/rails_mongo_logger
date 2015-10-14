@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    rails_exception_logger (0.2.0)
+    rails_mongo_logger (0.2.0)
       rails (>= 4.0.0)
       will_paginate (~> 3.0)
 
@@ -112,7 +112,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  rails_exception_logger!
+  rails_mongo_logger!
   jquery-rails
   pry
   pry-debugger

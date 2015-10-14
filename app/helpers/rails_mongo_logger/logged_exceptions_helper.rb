@@ -1,4 +1,4 @@
-module RailsExceptionLogger
+module RailsMongoLogger
   module LoggedExceptionsHelper
 
     def pretty_exception_date(exception)

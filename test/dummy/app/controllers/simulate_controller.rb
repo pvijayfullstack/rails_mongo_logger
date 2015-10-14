@@ -1,5 +1,5 @@
 class SimulateController < ApplicationController
-  include RailsExceptionLogger::ExceptionLoggable
+  include RailsMongoLogger::ExceptionLoggable
   rescue_from Exception, :with => :log_exception_handler
 
   self.exception_data = Proc.new { "Extra exception infomation here!" }

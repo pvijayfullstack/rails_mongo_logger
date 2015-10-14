@@ -1,8 +1,8 @@
-require "rails_exception_logger/engine"
+require "rails_mongo_logger/engine"
 require "will_paginate"
 require 'ipaddr'
 
-module RailsExceptionLogger
+module RailsMongoLogger
   # Copyright (c) 2005 Jamis Buck
   #
   # Permission is hereby granted, free of charge, to any person obtaining

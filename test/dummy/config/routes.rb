@@ -2,5 +2,5 @@ Rails.application.routes.draw do
 
   get "simulate/failure"
 
-  mount RailsExceptionLogger::Engine => "/logger"
+  mount RailsMongoLogger::Engine => "/logger"
 end

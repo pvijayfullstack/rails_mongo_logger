@@ -1,6 +1,6 @@
 require 'test_helper'
 
-module RailsExceptionLogger
+module RailsMongoLogger
   class LoggedExceptionsHelperTest < ActionView::TestCase
   end
 end

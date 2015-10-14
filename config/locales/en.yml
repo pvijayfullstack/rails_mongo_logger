@@ -1,5 +1,5 @@
 en:
-  rails_exception_logger:
+  rails_mongo_logger:
     logged_exceptions:
       index:
         title: Logged Exceptions

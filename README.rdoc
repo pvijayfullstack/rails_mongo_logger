@@ -1,6 +1,6 @@
 = Exception Logger for Rails 4
 
-This gem is evolved from the outdated rails_exception_logger gem. I refined it with the mountable rails engine, making it convenient to
+This gem is evolved from the outdated rails_mongo_logger gem. I refined it with the mountable rails engine, making it convenient to
 mount to any existing rails app.
 
 == Install
@@ -8,7 +8,7 @@ mount to any existing rails app.
 Inside your Gemfile:
 
   # Rails 4.1.x
-  gem "rails_exception_logger", :github => "pvijayror/rails_exception_logger"
+  gem "rails_mongo_logger", :github => "pvijayror/rails_mongo_logger"
 
 and then run:
 
@@ -23,22 +23,22 @@ Please check if all those requirements are satisfied on your environment.
 
 === Inside your ApplicationController:
 
-  include RailsExceptionLogger::ExceptionLoggable # loades the module
+  include RailsMongoLogger::ExceptionLoggable # loades the module
   rescue_from Exception, :with => :log_exception_handler # tells rails to forward the 'Exception' (you can change the type) to the handler of the module
 
 === Inside your config/routes.rb
 
-  mount RailsExceptionLogger::Engine => "/rails_exception_logger"
+  mount RailsMongoLogger::Engine => "/rails_mongo_logger"
 
 === Database Setup
 
 Use
 
-  rake rails_exception_logger:install:migrations
+  rake rails_mongo_logger:install:migrations
 
 This will create a database migration
 
-  TIMESTAMP_create_rails_exception_logger_logged_exceptions.rails_exception_logger.rb
+  TIMESTAMP_create_rails_mongo_logger_logged_exceptions.rails_mongo_logger.rb
 
 inside db/migrations
 
@@ -55,7 +55,7 @@ Example uses the declarative_authorization gem
 in config/environment/production.rb:
 
   config.after_initialize do
-    RailsExceptionLogger::LoggedExceptionsController.class_eval do
+    RailsMongoLogger::LoggedExceptionsController.class_eval do
       # include any custom auth modules you need
       # (declarative authorization gem used)
       filter_resource_access
@@ -80,7 +80,7 @@ Not implemented yet.
 To localize the interface:
 
   en:
-    rails_exception_logger:
+    rails_mongo_logger:
       logged_exceptions:
         index:
           title: Logged Exceptions
@@ -110,9 +110,9 @@ or
 
 To add authentication, in config/application.rb or the specific environment file:
 
-  # set up authencation of rails_exception_logger
+  # set up authencation of rails_mongo_logger
   config.after_initialize do
-    RailsExceptionLogger::LoggedExceptionsController.class_eval do
+    RailsMongoLogger::LoggedExceptionsController.class_eval do
       before_filter :authorize
 
       protected

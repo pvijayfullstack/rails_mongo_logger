@@ -1,4 +1,4 @@
-module RailsExceptionLogger
+module RailsMongoLogger
   module ApplicationHelper
 
 
