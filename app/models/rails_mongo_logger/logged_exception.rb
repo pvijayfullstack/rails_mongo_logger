@@ -71,11 +71,11 @@ module RailsMongoLogger
     end
 
     def self.class_names
-      self.select("DISTINCT exception_class").order(:exception_class).collect(&:exception_class)
+      order(:exception_class).collect(&:exception_class).uniq
     end
 
     def self.controller_actions
-      self.select("DISTINCT controller_name, action_name").order(:controller_name,:action_name).collect(&:controller_action)
+     order(:controller_name,:action_name).collect(&:controller_action).uniq
     end
 
     private
