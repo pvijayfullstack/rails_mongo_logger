@@ -7,7 +7,7 @@ mount to any existing rails app.
 
 Inside your Gemfile:
 
-  # Rails 4.1.x
+  # Rails 4.2.x
   gem "rails_mongo_logger", :github => "pvijayror/rails_mongo_logger"
 
 and then run:
@@ -19,7 +19,7 @@ and then run:
 Please check if all those requirements are satisfied on your environment.
 
 * will_paginate >= 3.0.5 # (used for pagination)
-* rails >= 4.0.0
+* rails >= 4.1.0
 
 === Inside your ApplicationController:
 
@@ -30,21 +30,6 @@ Please check if all those requirements are satisfied on your environment.
 
   mount RailsMongoLogger::Engine => "/rails_mongo_logger"
 
-=== Database Setup
-
-Use
-
-  rake rails_mongo_logger:install:migrations
-
-This will create a database migration
-
-  TIMESTAMP_create_rails_mongo_logger_logged_exceptions.rails_mongo_logger.rb
-
-inside db/migrations
-
-Then
-
-  rake db:migrate
 
 == Authentication
 

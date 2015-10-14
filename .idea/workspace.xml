@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7f1847a1-73a9-4be1-b87c-db18b92317c0" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/rails_mongo_logger/version.rb" afterPath="$PROJECT_DIR$/lib/rails_mongo_logger/version.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.rdoc" afterPath="$PROJECT_DIR$/README.rdoc" />
     </list>
     <ignored path="rails_mongo_logger.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -29,16 +29,7 @@
       <file leaf-file-name="logged_exception.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/models/rails_mongo_logger/logged_exception.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="75" selection-start="915" selection-end="915" vertical-scroll-proportion="-3.6">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="application.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/layouts/rails_mongo_logger/application.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="0" selection-start="492" selection-end="492" vertical-scroll-proportion="-5.769231">
+            <state line="6" column="34" selection-start="195" selection-end="195" vertical-scroll-proportion="-1.6363636">
               <folding />
             </state>
           </provider>
@@ -89,10 +80,28 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="version.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="version.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/rails_mongo_logger/version.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="0" selection-start="48" selection-end="48" vertical-scroll-proportion="0.0703125">
+            <state line="3" column="0" selection-start="48" selection-end="48" vertical-scroll-proportion="-1.6071428">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.rdoc" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.rdoc">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="61" column="59" selection-start="1733" selection-end="1733" vertical-scroll-proportion="1.4296875">
               <folding />
             </state>
           </provider>
@@ -102,15 +111,6 @@
         <entry file="file://$PROJECT_DIR$/config/initializers/will_paginate_mongo.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state line="1" column="78" selection-start="30" selection-end="30" vertical-scroll-proportion="-0.53571427">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_exceptions.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/rails_mongo_logger/logged_exceptions/_exceptions.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="45" selection-start="1068" selection-end="1068" vertical-scroll-proportion="-4.923077">
               <folding />
             </state>
           </provider>
@@ -132,7 +132,6 @@
       <list>
         <option value="$PROJECT_DIR$/app/models/rails_exception_logger/logged_exception.rb" />
         <option value="$PROJECT_DIR$/Gemfile" />
-        <option value="$PROJECT_DIR$/README.rdoc" />
         <option value="$PROJECT_DIR$/app/views/layouts/rails_mongo_logger/application.html.erb" />
         <option value="$PROJECT_DIR$/app/models/rails_mongo_logger/logged_exception.rb" />
         <option value="$PROJECT_DIR$/app/helpers/rails_mongo_logger/logged_exceptions_helper.rb" />
@@ -140,6 +139,7 @@
         <option value="$PROJECT_DIR$/rails_mongo_logger.gemspec" />
         <option value="$PROJECT_DIR$/config/initializers/will_paginate_mongo.rb" />
         <option value="$PROJECT_DIR$/lib/rails_mongo_logger/version.rb" />
+        <option value="$PROJECT_DIR$/README.rdoc" />
       </list>
     </option>
   </component>
@@ -566,20 +566,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/lib/rails_mongo_logger/engine.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="3" selection-start="27" selection-end="27" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/rails_mongo_logger/logged_exceptions/feed.rss.builder">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="35" selection-start="139" selection-end="139" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/routes.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="13" column="0" selection-start="248" selection-end="248" vertical-scroll-proportion="0.0">
@@ -618,13 +604,6 @@
     <entry file="file://$PROJECT_DIR$/app/views/rails_mongo_logger/logged_exceptions/_exceptions.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="22" column="45" selection-start="1068" selection-end="1068" vertical-scroll-proportion="-4.923077">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/rails_mongo_logger/logged_exception.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="75" selection-start="915" selection-end="915" vertical-scroll-proportion="-3.6">
           <folding />
         </state>
       </provider>
@@ -673,7 +652,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/rails_mongo_logger/version.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="0" selection-start="48" selection-end="48" vertical-scroll-proportion="0.0703125">
+        <state line="3" column="0" selection-start="48" selection-end="48" vertical-scroll-proportion="-1.6071428">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/rails_mongo_logger/logged_exception.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="34" selection-start="195" selection-end="195" vertical-scroll-proportion="-1.6363636">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.rdoc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="61" column="59" selection-start="1733" selection-end="1733" vertical-scroll-proportion="1.4296875">
           <folding />
         </state>
       </provider>
